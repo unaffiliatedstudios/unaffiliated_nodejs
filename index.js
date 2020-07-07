@@ -18,9 +18,17 @@
  *  App Configuration
  */
 
+ app.set("views", path.join(__dirname, "views"))
+ app.set("view engine", "pug")
+ app.use(express.static(path.join(__dirname, "public")))
+
 /**
  * Routes Definitions
  */
+
+ app.get("/", (req, res) => {
+     res.render("index", { title: "Home" })
+ })
 
  app.get("/", (req, res) => {
      res.status(200).send("This is a thing")
