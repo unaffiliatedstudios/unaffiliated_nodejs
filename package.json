@@ -1,0 +1,27 @@
+{
+  "name": "unaffiliated_nodejs",
+  "version": "1.0.0",
+  "description": "A NodeJS and Express instance of Unaffiliated Studios' website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unaffiliatedstudios/unaffiliated_nodejs.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "unaffiliatedstudios"
+  ],
+  "author": "Cedric Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unaffiliatedstudios/unaffiliated_nodejs/issues"
+  },
+  "homepage": "https://github.com/unaffiliatedstudios/unaffiliated_nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
