@@ -4,7 +4,7 @@
   "description": "A NodeJS and Express instance of Unaffiliated Studios' website",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
+    "coverage": "npm run pretest && jest --coverage && cat ./coverage/lcov.info | coveralls",
     "dev": "nodemon ./index.js"
   },
   "repository": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/unaffiliatedstudios/unaffiliated_nodejs#readme",
   "devDependencies": {
+    "coveralls": "^3.1.0",
     "nodemon": "^2.0.4"
   },
   "dependencies": {
