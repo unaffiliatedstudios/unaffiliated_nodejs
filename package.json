@@ -4,7 +4,8 @@
   "description": "A NodeJS and Express instance of Unaffiliated Studios' website",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "dev": "nodemon ./index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/unaffiliatedstudios/unaffiliated_nodejs#readme",
   "devDependencies": {
     "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
